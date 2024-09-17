@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #18181b; /* Preto */
+    color: #f8fafc; /* Branco */
+}
+
+header {
+    background-color: #16a34a; /* Verde */
+    color: #f8fafc; /* Branco */
+    padding: 1em 2em;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav a {
+    color: #f8fafc; /* Branco */
+    margin: 0 1em;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    background-color: #262626; /* Cinza escuro */
+    color: #f8fafc; /* Branco */
+    text-align: center;
+    padding: 4em 2em;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.info {
+    background-color: #262626; /* Cinza escuro */
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
+}
+
+.info h2 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+.info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.cta {
+    text-align: center;
+    padding: 2em;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+}
+
+.cta .btn {
+    background-color: #16a34a; /* Verde */
+    color: #f8fafc; /* Branco */
+    padding: 1em 2em;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.cta .btn:hover {
+    background-color: #138e28; /* Verde mais escuro */
+}
+
+footer {
+    background-color: #16a34a; /* Verde */
+    color: #f8fafc; /* Branco */
+    padding: 1em;
+    text-align: center;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+}
